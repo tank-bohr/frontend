@@ -1,8 +1,11 @@
-module.exports = {
-    entry: "./entry.js",
+var config = {
+    entry: "./src/app.jsx",
     output: {
         path: __dirname,
         filename: "bundle.js"
+    },
+    resolve: {
+        extensions: ["", ".js", ".jsx"]
     },
     module: {
       loaders: [
@@ -17,3 +20,4 @@ module.exports = {
       ]
     }
 };
+module.exports = config;
