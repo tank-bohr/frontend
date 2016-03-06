@@ -1,5 +1,8 @@
 import React from 'react';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 import CommentBox from './CommentBox';
+
+injectTapEventPlugin();
 
 var data = [
   {id: 1, author: "Pete Hunt", text: "This is one comment"},
