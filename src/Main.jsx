@@ -1,9 +1,10 @@
 import React from 'react';
+import CommentBox from './CommentBox';
 
 class Main extends React.Component {
   render() {
     return (
-      <h1>Main component</h1>
+      <CommentBox />
     )
   }
 }
